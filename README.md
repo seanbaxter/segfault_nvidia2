@@ -90,8 +90,7 @@ I suspect the problem is how the driver handles the empty base class of std::pai
 
 The first member of `std__pair_sphere_tracer_t__segment_tracer_t_` is an empty struct. See the std::pair implementation:
 
-```
-
+```cpp
   template<typename _U1, typename _U2> class __pair_base
   {
 #if __cplusplus >= 201103L
